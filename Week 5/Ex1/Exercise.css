@@ -1,0 +1,23 @@
+/* Google font Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+/* Google font Oxygen */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Train+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Train+One&family=Zilla+Slab+Highlight&display=swap');
+h1, h2, h3, h4 {
+    font-family: 'Train One', cursive;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+

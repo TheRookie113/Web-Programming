@@ -1,0 +1,31 @@
+/* Header and footer cover the whole width of the web page */
+header {
+    width: max-content;
+    background-color: aqua;
+    margin-bottom: 10px;
+    position: fixed;
+}
+
+footer {
+    
+    width: auto;
+    text-align: left;
+    background-color: blueviolet;
+    clear: both;
+    margin-top: 10px;
+}
+ #left {
+    width: 30%;
+    background-color: rgb(83, 99, 99);
+    min-width: 200px;
+    float: left;
+    margin-top: 5%;
+ }
+ 
+ main {
+     background-color: aquamarine;
+     width: calc(100% - max(30%, 200px) - 15%);
+     float: left;
+ }
+
+ 
